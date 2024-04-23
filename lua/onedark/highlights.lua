@@ -41,7 +41,7 @@ hl.common = {
     lCursor = {fmt = "reverse"},
     CursorIM = {fmt = "reverse"},
     CursorColumn = {bg = c.bg1},
-    CursorLine = {bg = c.bg1},
+    CursorLine = {bg = c.bg0},
     ColorColumn = {bg = c.bg1},
     CursorLineNr = {fg = c.fg},
     LineNr = {fg = c.grey},
@@ -151,7 +151,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@constant"] = {fg = c.orange, fmt = cfg.code_style.constants},
         ["@constant.builtin"] = {fg = c.orange, fmt = cfg.code_style.constants},
         ["@constant.macro"] = {fg = c.orange, fmt = cfg.code_style.constants},
-        ["@constructor"] = {fg = c.yellow, fmt = "bold"},
+        ["@constructor"] = {fg = c.yellow, fmt = cfg.code_style.functions},
         ["@diff.add"] = hl.common.DiffAdded,
         ["@diff.delete"] = hl.common.DiffDeleted,
         ["@diff.plus"] = hl.common.DiffAdded,
@@ -208,7 +208,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@variable"] = {fg = c.fg, fmt = cfg.code_style.variables},
         ["@variable.builtin"] = {fg = c.red, fmt = cfg.code_style.variables},
         ["@variable.member"] = colors.Cyan,
-        ["@variable.parameter"] = colors.Red,
+        ["@variable.parameter"] = colors.Fg,
         ["@markup.heading.1.markdown"] = {fg = c.red, fmt = "bold"},
         ["@markup.heading.2.markdown"] = {fg = c.purple, fmt = "bold"},
         ["@markup.heading.3.markdown"] = {fg = c.orange, fmt = "bold"},
@@ -475,6 +475,11 @@ hl.plugins.diffview = {
     DiffviewStatusBroken = colors.Red
 }
 
+hl.plugins.neogit = {
+    NeogitCursorLine = hl.common.CursorLine,
+    NeogitSectionHeader = {fg = c.purple, fmt = "bold"},
+}
+
 hl.plugins.gitsigns = {
     GitSignsAdd = colors.Green,
     GitSignsAddLn = colors.Green,
@@ -543,7 +548,7 @@ hl.plugins.telescope = {
     TelescopePreviewBorder = colors.Cyan,
     TelescopeMatching = { fg = c.orange, fmt = "bold" },
     TelescopePromptPrefix = colors.Green,
-    TelescopeSelection =  { bg =c.bg2 },
+    TelescopeSelection =  { bg =c.bg1 },
     TelescopeSelectionCaret = colors.Yellow
 }
 
