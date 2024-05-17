@@ -91,7 +91,7 @@ hl.common = {
     WinSeparator = {fg = c.bg3},
     Visual = {bg = c.bg3},
     VisualNOS = {fg = c.none, bg = c.bg2, fmt = "underline"},
-    QuickFixLine = {fg = c.blue, fmt = "underline"},
+    QuickFixLine = {bg = c.bg2},
     Debug = {fg = c.yellow},
     debugPC = {fg = c.bg0, bg = c.green},
     debugBreakpoint = {fg = c.bg0, bg = c.red},
