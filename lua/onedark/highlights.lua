@@ -195,6 +195,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@string"] = {fg = c.green, fmt = cfg.code_style.strings},
         ["@string.regexp"] = {fg = c.orange, fmt = cfg.code_style.strings},
         ["@string.escape"] = {fg = c.red, fmt = cfg.code_style.strings},
+        ["@string.special.url.html"] = {fg = c.green, fmt = cfg.code_style.strings},
         ["@string.special.symbol"] = colors.Cyan,
         ["@tag"] = colors.Purple,
         ["@tag.attribute"] = colors.Yellow,
@@ -719,7 +720,6 @@ hl.langs.markdown = {
 }
 
 hl.langs.php = {
-    phpFunctions = colors.Fg,
     phpMethods = colors.Fg,
     phpMethodsVar = colors.Fg,
     phpStructure = colors.Purple,
@@ -737,6 +737,7 @@ hl.langs.php = {
     phpSCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
     phpFCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
     phpRegion = colors.Yellow,
+	phpFunctions = colors.Yellow,
     phpSpecialFunction = colors.Yellow,
     phpDocTags = {fg = c.light_grey, fmt = cfg.code_style.comments},
     phpDocCustomTags = {fg = c.grey, fmt = cfg.code_style.comments},
