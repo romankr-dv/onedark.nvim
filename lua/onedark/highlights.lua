@@ -108,7 +108,7 @@ hl.syntax = {
     Boolean = colors.Orange,
     Type = colors.Yellow,
     Structure = colors.Yellow,
-    StorageClass = colors.Yellow,
+    StorageClass = colors.Cyan,
     Identifier = {fg = c.red, fmt = cfg.code_style.variables},
     Constant = colors.Cyan,
     PreProc = colors.Purple,
@@ -719,20 +719,39 @@ hl.langs.markdown = {
 }
 
 hl.langs.php = {
-    phpFunctions = {fg = c.fg, fmt = cfg.code_style.functions},
-    phpMethods = colors.Cyan,
+    phpFunctions = colors.Fg,
+    phpMethods = colors.Fg,
+    phpMethodsVar = colors.Fg,
     phpStructure = colors.Purple,
-    phpOperator = colors.Purple,
+    phpStorageClass = colors.Purple,
+    phpOperator = colors.Fg,
+    phpRelation = colors.Fg,
     phpMemberSelector = colors.Fg,
-    phpVarSelector = {fg = c.orange, fmt = cfg.code_style.variables},
-    phpIdentifier = {fg = c.orange, fmt = cfg.code_style.variables},
-    phpBoolean = colors.Cyan,
+    phpVarSelector = {fg = c.fg, fmt = cfg.code_style.variables},
+    phpIdentifier = {fg = c.fg, fmt = cfg.code_style.variables},
+    phpBoolean = colors.Orange,
     phpNumber = colors.Orange,
+    phpIntVar = colors.Orange,
     phpHereDoc = colors.Green,
     phpNowDoc = colors.Green,
     phpSCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
     phpFCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
-    phpRegion = colors.Blue
+    phpRegion = colors.Yellow,
+    phpSpecialFunction = colors.Yellow,
+    phpDocTags = {fg = c.light_grey, fmt = cfg.code_style.comments},
+    phpDocCustomTags = {fg = c.grey, fmt = cfg.code_style.comments},
+}
+
+hl.langs.css = {
+    cssURL = colors.Fg,
+    cssCustomProp = colors.Fg,
+    cssClassNameDot = colors.LightGrey,
+    cssBraces = colors.LightGrey,
+    cssNoise = colors.LightGrey,
+    cssPseudoClassId = colors.Cyan,
+    cssClassName = colors.Yellow,
+    cssColor = colors.Green,
+    cssUnitDecorators = colors.Green
 }
 
 hl.langs.scala = {
