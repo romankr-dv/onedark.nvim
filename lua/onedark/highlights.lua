@@ -479,6 +479,14 @@ hl.plugins.diffview = {
 hl.plugins.neogit = {
     NeogitCursorLine = hl.common.CursorLine,
     NeogitSectionHeader = {fg = c.purple, fmt = "bold"},
+    NeogitBranchHead = {fg = c.red, fmt = "bold"},
+    NeogitHunkHeader = {fg = c.purple, bg = c.bg2},
+    NeogitCommitViewHeader = {fg = c.purple, fmt = "bold"},
+    NeogitCommitViewDescription = {fg = c.yellow},
+    NeogitDiffHeader = {fg = c.bg0, bg = c.light_grey},
+    NeogitDiffContext = {fg = c.fg, bg = c.bg0},
+    NeogitDiffAdd = {fg = c.green, bg = c.bg0},
+    NeogitDiffDelete = {fg = c.red, bg = c.bg0},
 }
 
 hl.plugins.gitsigns = {
