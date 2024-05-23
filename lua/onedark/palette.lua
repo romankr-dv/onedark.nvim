@@ -22,9 +22,9 @@ return {
 		dark_red = "#993939",
 		dark_yellow = "#93691d",
 		dark_purple = "#8a3fa0",
-		diff_add = "#272f21",
-		diff_delete = "#2e2122",
-		diff_change = "#122a3e",
+		diff_add = "#31392b",
+		diff_delete = "#393f4a",
+		diff_change = "#1c3448",
 		diff_text = "#224968",
 	},
 	darker = {
