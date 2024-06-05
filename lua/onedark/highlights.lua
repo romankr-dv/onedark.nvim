@@ -59,7 +59,7 @@ hl.common = {
     DiffDeleted = colors.Red,
     DiffFile = colors.Cyan,
     DiffIndexLine = colors.Grey,
-    Directory = {fg = c.blue},
+    Directory = {fg = c.none},
     ErrorMsg = {fg = c.red, fmt = "bold"},
     WarningMsg = {fg = c.yellow, fmt = "bold"},
     MoreMsg = {fg = c.blue, fmt = "bold"},
@@ -555,17 +555,22 @@ hl.plugins.nvim_tree = {
 }
 hl.plugins.telescope = {
     TelescopeBorder = colors.Cyan,
-    TelescopePromptBorder = colors.Grey,
-    TelescopeResultsBorder = colors.Grey,
-    TelescopeResultsDiffAdd = colors.Green,
-    TelescopeResultsDiffChange = colors.Blue,
-    TelescopeResultsDiffDelete = colors.Red,
-    TelescopeResultsDiffUntracked = colors.Grey,
-    TelescopePreviewBorder = colors.Grey,
-    TelescopeMatching = { fg = c.orange, fmt = "bold" },
+    TelescopePromptNormal = { bg =c.bg3 },
+    TelescopePromptBorder= { fg=c.bg1, bg =c.bg1 },
+    TelescopeResultsNormal = { bg =c.bg1 },
+    TelescopeResultsBorder= { fg=c.bg1, bg =c.bg1 },
+    TelescopeResultsDiffAdd = { fmt = "bold" },
+    TelescopeResultsDiffChange = { fmt = "bold" },
+    TelescopeResultsDiffDelete = { fmt = "bold" },
+    TelescopeResultsDiffUntracked = { fmt = "bold" },
+    TelescopePreviewNormal = { bg=c.bg0 },
+    TelescopePreviewBorder = { fg=c.bg0, bg=c.bg0 },
+    TelescopeMatching = { fmt = "underline" },
     TelescopePromptPrefix = colors.Green,
-    TelescopeSelection =  { bg =c.bg1 },
-    TelescopeSelectionCaret = colors.Yellow
+    TelescopeSelection = {fg = c.bg0, bg = c.bg_blue},
+    TelescopeSelectionCaret = {fg = c.bg0, bg = c.bg_blue},
+    TelescopeMultiSelection = { fmt = "bold" },
+    TelescopeMultiIcon = { fmt = "bold" },
 }
 
 hl.plugins.dashboard = {
