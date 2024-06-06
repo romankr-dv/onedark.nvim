@@ -59,7 +59,7 @@ hl.common = {
     DiffDeleted = colors.Red,
     DiffFile = colors.Cyan,
     DiffIndexLine = colors.Grey,
-    Directory = {fg = c.none},
+    Directory = {fg = c.bg_blue},
     ErrorMsg = {fg = c.red, fmt = "bold"},
     WarningMsg = {fg = c.yellow, fmt = "bold"},
     MoreMsg = {fg = c.blue, fmt = "bold"},
