@@ -564,6 +564,8 @@ hl.plugins.telescope = {
     TelescopeResultsDiffDelete = { fg=c.bg_blue },
     TelescopeResultsDiffUntracked = { fg=c.bg_blue },
     TelescopeResultsIdentifier = { fg=c.bg_blue },
+    TelescopeResultsNumber = colors.Orange,
+    TelescopeResultsComment = colors.Grey,
     TelescopePreviewNormal = { bg=c.bg0 },
     TelescopePreviewBorder = { fg=c.bg0, bg=c.bg0 },
     TelescopeMatching = { fmt = "underline" },
