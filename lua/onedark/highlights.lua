@@ -577,7 +577,9 @@ hl.plugins.telescope = {
 }
 
 hl.plugins.lazy = {
-    LazyNormal = {fg = c.fg, bg = c.bg1},
+    LazyNormal = {fg = c.fg, bg = c.bg0},
+    LazyButton = {fg = c.fg, bg = c.bg1},
+    LazyProp = {fg = c.grey, fmt = cfg.code_style.comments},
 }
 
 hl.plugins.dashboard = {
