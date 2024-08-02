@@ -582,6 +582,13 @@ hl.plugins.lazy = {
     LazyProp = {fg = c.grey, fmt = cfg.code_style.comments},
 }
 
+hl.plugins.flash = {
+    FlashBackdrop = colors.Grey,
+    FlashCurrent = colors.Yellow,
+    FlashMatch = colors.Yellow,
+    FlashLabel = {fg = c.bg0, bg = c.bg_yellow},
+}
+
 hl.plugins.dashboard = {
     DashboardShortCut = colors.Blue,
     DashboardHeader = colors.Yellow,
