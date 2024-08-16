@@ -374,9 +374,9 @@ hl.plugins.lsp = {
     DiagnosticUnderlineInfo = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.blue},
     DiagnosticUnderlineWarn = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.yellow},
 
-    LspReferenceText = { bg = c.bg2 },
-    LspReferenceWrite = { bg = c.bg2 },
-    LspReferenceRead = { bg = c.bg2 },
+    LspReferenceText = { bg = c.diff_text },
+    LspReferenceWrite = { bg = c.diff_text },
+    LspReferenceRead = { bg = c.diff_text },
 
     LspCodeLens = { fg = c.grey, fmt = cfg.code_style.comments },
     LspCodeLensSeparator = { fg = c.grey },
