@@ -41,7 +41,7 @@ hl.common = {
     lCursor = {fmt = "reverse"},
     CursorIM = {fmt = "reverse"},
     CursorColumn = {bg = c.bg1},
-    CursorLine = {bg = c.bg0},
+    CursorLine = {bg = c.bg3},
     ColorColumn = {bg = c.bg1},
     CursorLineNr = {fg = c.fg},
     LineNr = {fg = c.grey},
@@ -374,9 +374,9 @@ hl.plugins.lsp = {
     DiagnosticUnderlineInfo = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.blue},
     DiagnosticUnderlineWarn = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.yellow},
 
-    LspReferenceText = { bg = c.diff_text },
-    LspReferenceWrite = { bg = c.diff_text },
-    LspReferenceRead = { bg = c.diff_text },
+    LspReferenceText = { bg = c.bg3 },
+    LspReferenceWrite = { bg = c.bg3 },
+    LspReferenceRead = { bg = c.bg3 },
 
     LspCodeLens = { fg = c.grey, fmt = cfg.code_style.comments },
     LspCodeLensSeparator = { fg = c.grey },
