@@ -5,12 +5,12 @@ local one_dark = {
     inactive = {
         a = {fg = c.grey, bg = c.bg0, gui = 'bold'},
         b = {fg = c.grey, bg = c.bg0},
-        c = {fg = c.grey, bg = cfg.lualine.transparent and c.none or c.bg1},
+        c = {fg = c.grey, bg = cfg.lualine.transparent and c.none or c.bg0},
     },
     normal = {
         a = {fg = c.bg0, bg = c.green, gui = 'bold'},
         b = {fg = c.bg0, bg = c.blue},
-        c = {fg = c.fg, bg = cfg.lualine.transparent and c.none or c.bg1},
+        c = {fg = c.fg, bg = cfg.lualine.transparent and c.none or c.bg0},
     },
     visual = {a = {fg = c.bg0, bg = c.purple, gui = 'bold'}},
     replace = {a = {fg = c.bg0, bg = c.red, gui = 'bold'}},
