@@ -41,7 +41,7 @@ hl.common = {
     lCursor = {fmt = "reverse"},
     CursorIM = {fmt = "reverse"},
     CursorColumn = {bg = c.bg1},
-    CursorLine = {bg = c.bg3},
+    CursorLine = {bg = c.bg1},
     ColorColumn = {bg = c.bg1},
     CursorLineNr = {fg = c.fg},
     LineNr = {fg = c.grey},
