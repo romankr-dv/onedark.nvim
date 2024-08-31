@@ -97,8 +97,10 @@ hl.common = {
     debugPC = {fg = c.bg0, bg = c.green},
     debugBreakpoint = {fg = c.bg0, bg = c.red},
     ToolbarButton = {fg = c.bg0, bg = c.bg_blue},
-    FloatBorder = {fg = c.grey, bg = c.bg1},
-    NormalFloat = {fg = c.fg, bg = c.bg1},
+    FloatBorder = {fg = c.grey, bg = c.bg0},
+    NormalFloat = {fg = c.fg, bg = c.bg0},
+    FloatTitle = {fg = c.cyan, bg = c.bg0},
+    FloatFooter = {fg = c.cyan, bg = c.bg0},
 }
 
 hl.syntax = {
