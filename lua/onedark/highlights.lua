@@ -566,6 +566,7 @@ hl.plugins.telescope = {
     TelescopeResultsDiffDelete = { fg=c.bg_blue },
     TelescopeResultsDiffUntracked = { fg=c.bg_blue },
     TelescopeResultsIdentifier = { fg=c.bg_blue },
+    TelescopeResultsLineNr = { fg=c.bg_blue },
     TelescopeResultsNumber = { fg=c.bg_blue },
     TelescopeResultsComment = { fmt = "italic" },
     TelescopePreviewNormal = { bg=c.bg0 },
