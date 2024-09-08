@@ -559,6 +559,7 @@ hl.plugins.telescope = {
     TelescopeBorder = colors.Cyan,
     TelescopePromptNormal = { bg =c.bg3 },
     TelescopePromptBorder= { fg=c.bg1, bg =c.bg1 },
+    TelescopePromptCounter= { fg=c.grey },
     TelescopeResultsNormal = { bg =c.bg1 },
     TelescopeResultsBorder= { fg=c.bg1, bg =c.bg1 },
     TelescopeResultsDiffAdd = { fg=c.bg_blue },
