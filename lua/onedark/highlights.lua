@@ -51,7 +51,7 @@ hl.common = {
     Changed = colors.Blue,
     DiffAdd = {fg = c.none, bg = c.diff_add},
     DiffChange = {fg = c.none, bg = c.diff_change},
-    DiffDelete = {fg = c.none, bg = c.bg1},
+    DiffDelete = {fg = c.none, bg = c.diff_delete},
     DiffText = {fg = c.none, bg= c.diff_text},
     DiffAdded = colors.Green,
     DiffChanged = colors.Blue,
