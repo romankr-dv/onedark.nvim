@@ -182,7 +182,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@markup.link.url"] = {fg = c.cyan, fmt = 'underline'},
         ["@markup.list"] = colors.Red,
         ["@markup.math"] = colors.Fg,
-        ["@markup.raw"] = colors.Green,
+        ["@markup.raw"] = colors.Blue,
         ["@markup.strike"] = {fg = c.fg, fmt = 'strikethrough'},
         ["@markup.strong"] = {fg = c.fg, fmt = 'bold'},
         ["@markup.underline"] = {fg = c.fg, fmt = 'underline'},
