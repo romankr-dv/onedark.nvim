@@ -252,6 +252,11 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@variable.member.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@variable.parameter.php"] = colors.Purple,
 
+        ["@property.css"] = colors.Fg,
+        ["@property.json"] = colors.Purple,
+        ["@punctuation.delimiter.json"] = colors.Fg,
+        ["@punctuation.bracket.json"] = colors.Fg,
+
         -- Old configuration for nvim-treesiter@0.9.1 and below
         ["@conditional"] = {fg = c.purple, fmt = cfg.code_style.keywords},
         ["@exception"] = colors.Purple,
