@@ -264,6 +264,8 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@attribute.sql"] = colors.Orange,
         ["@number.sql"] = colors.Cyan,
         ["@number.float.sql"] = colors.Cyan,
+        ["@punctuation.delimiter.sql"] = colors.Fg,
+        ["@operator.sql"] = colors.Fg,
         ["@type.sql"] = colors.Fg,
 
         -- Old configuration for nvim-treesiter@0.9.1 and below
