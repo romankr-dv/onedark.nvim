@@ -238,6 +238,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@keyword.conditional.ternary.php"] = {fg = c.fg, fmt = cfg.code_style.keywords},
         ["@keyword.exception.php"] = colors.Orange,
         ["@keyword.php"] = {fg = c.orange, fmt = cfg.code_style.keywords},
+        ["@keyword.operator.php"] =  {fg = c.orange, fmt = cfg.code_style.keywords},
         ["@keyword.repeat.php"] = {fg = c.orange, fmt = cfg.code_style.keywords},
         ["@module.php"] = colors.Fg,
         ["@number.php"] = colors.Cyan,
