@@ -260,6 +260,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
 
         ["@keyword.sql"] = colors.Orange,
         ["@keyword.operator.sql"] = colors.Orange,
+        ["@keyword.conditional.sql"] = colors.Orange,
         ["@variable.member.sql"] = colors.Fg,
         ["@attribute.sql"] = colors.Orange,
         ["@number.sql"] = colors.Cyan,
