@@ -226,7 +226,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@markup.heading.5.marker.markdown"] = {fg = c.purple, fmt = "bold"},
         ["@markup.heading.6.marker.markdown"] = {fg = c.orange, fmt = "bold"},
 
-        ["@constant.php"] = {fg = c.purple, fmt = "italic"},
+        ["@constant.php"] = {fg = c.purple, fmt = cfg.code_style.constants},
         ["@constructor.php"] = {fg = c.fg, fmt = cfg.code_style.functions},
         ["@function.builtin.php"] = {fg = c.orange, fmt = cfg.code_style.functions},
         ["@keyword.modifier.php"] = {fg = c.orange, fmt = cfg.code_style.keywords},
@@ -239,7 +239,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@keyword.exception.php"] = colors.Orange,
         ["@keyword.php"] = {fg = c.orange, fmt = cfg.code_style.keywords},
         ["@keyword.repeat.php"] = {fg = c.orange, fmt = cfg.code_style.keywords},
-        ["@module.php"] = {fg = c.fg, fmt = "nocombine"},
+        ["@module.php"] = colors.Fg,
         ["@number.php"] = colors.Cyan,
         ["@number.float.php"] = colors.Cyan,
         ["@operator.php"] = colors.Fg,
