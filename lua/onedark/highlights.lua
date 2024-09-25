@@ -136,7 +136,7 @@ hl.syntax = {
     Delimiter = colors.LightGrey,
     Comment = {fg = c.grey, fmt = cfg.code_style.comments},
     SpecialComment = {fg = c.grey, fmt = cfg.code_style.comments},
-    Todo = {fg = c.red, fmt = cfg.code_style.comments}
+    Todo = {fg = c.grey, fmt = cfg.code_style.comments}
 }
 
 if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
@@ -252,6 +252,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@variable.builtin.php"] = {fg = c.orange, fmt = cfg.code_style.variables},
         ["@variable.member.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@variable.parameter.php"] = colors.Purple,
+        ["@label.php"] = colors.Fg,
 
         ["@property.css"] = colors.Fg,
         ["@property.json"] = colors.Purple,
