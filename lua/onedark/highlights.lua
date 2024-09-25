@@ -258,6 +258,14 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@punctuation.delimiter.json"] = colors.Fg,
         ["@punctuation.bracket.json"] = colors.Fg,
 
+        ["@keyword.sql"] = colors.Orange,
+        ["@keyword.operator.sql"] = colors.Orange,
+        ["@variable.member.sql"] = colors.Fg,
+        ["@attribute.sql"] = colors.Orange,
+        ["@number.sql"] = colors.Cyan,
+        ["@number.float.sql"] = colors.Cyan,
+        ["@type.sql"] = colors.Fg,
+
         -- Old configuration for nvim-treesiter@0.9.1 and below
         ["@conditional"] = {fg = c.purple, fmt = cfg.code_style.keywords},
         ["@exception"] = colors.Purple,
