@@ -226,7 +226,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@markup.heading.5.marker.markdown"] = {fg = c.purple, fmt = "bold"},
         ["@markup.heading.6.marker.markdown"] = {fg = c.orange, fmt = "bold"},
 
-        ["@constant.php"] = {fg = c.purple, fmt = cfg.code_style.constants},
+        ["@constant.php"] = {fg = c.purple, fmt = "italic"},
         ["@constructor.php"] = {fg = c.fg, fmt = cfg.code_style.functions},
         ["@function.builtin.php"] = {fg = c.orange, fmt = cfg.code_style.functions},
         ["@keyword.modifier.php"] = {fg = c.orange, fmt = cfg.code_style.keywords},
@@ -248,7 +248,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@punctuation.bracket.php"] = colors.Fg,
         ["@type.php"] = colors.Fg,
         ["@variable.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
-        ["@variable.builtin.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
+        ["@variable.builtin.php"] = {fg = c.orange, fmt = cfg.code_style.variables},
         ["@variable.member.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@variable.parameter.php"] = colors.Purple,
 
@@ -896,7 +896,7 @@ hl.langs.php = {
     phpSCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
     phpFCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
     phpRegion = colors.Yellow,
-	phpFunctions = colors.Yellow,
+    phpFunctions = colors.Yellow,
     phpSpecialFunction = colors.Yellow,
     phpDocTags = {fg = c.light_grey, fmt = cfg.code_style.comments},
     phpDocCustomTags = {fg = c.grey, fmt = cfg.code_style.comments},
