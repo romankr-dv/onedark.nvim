@@ -248,11 +248,18 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@punctuation.delimiter.php"] = colors.Fg,
         ["@punctuation.bracket.php"] = colors.Fg,
         ["@type.php"] = colors.Fg,
+        ["@type.definition.php"] = colors.Fg,
         ["@variable.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@variable.builtin.php"] = {fg = c.orange, fmt = cfg.code_style.variables},
         ["@variable.member.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@variable.parameter.php"] = colors.Purple,
         ["@label.php"] = colors.Fg,
+
+        ["@attribute.phpdoc"] = colors.LightGrey,
+        ["@keyword.phpdoc"] = colors.Orange,
+        ["@variable.parameter.phpdoc"] = colors.Purple,
+        ["@variable.phpdoc"] = colors.Purple,
+        ["@type.phpdoc"] = colors.Fg,
 
         ["@property.css"] = colors.Fg,
         ["@property.json"] = colors.Purple,
