@@ -258,6 +258,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
 
         ["@attribute.phpdoc"] = colors.LightGrey,
         ["@keyword.phpdoc"] = colors.Orange,
+        ["@variable.member.phpdoc"] = colors.Purple,
         ["@variable.parameter.phpdoc"] = colors.Purple,
         ["@variable.phpdoc"] = colors.Purple,
         ["@type.phpdoc"] = colors.Fg,
