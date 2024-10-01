@@ -235,6 +235,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@function.builtin.lua"] = {fg = c.blue, fmt = cfg.code_style.functions},
         ["@property.lua"] = colors.Cyan,
         ["@variable.member.lua"] = colors.Cyan,
+        ["@module.builtin.lua"] = colors.Purple,
         ["@constant.php"] = {fg = c.purple, fmt = cfg.code_style.constants},
         ["@property.php"] = colors.Purple,
         ["@variable.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
