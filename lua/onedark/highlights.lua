@@ -906,39 +906,20 @@ hl.langs.markdown = {
 }
 
 hl.langs.php = {
-    phpMethods = colors.Fg,
-    phpMethodsVar = colors.Fg,
+    phpFunctions = {fg = c.fg, fmt = cfg.code_style.functions},
+    phpMethods = colors.Cyan,
     phpStructure = colors.Purple,
-    phpStorageClass = colors.Purple,
-    phpOperator = colors.Fg,
-    phpRelation = colors.Fg,
+    phpOperator = colors.Purple,
     phpMemberSelector = colors.Fg,
-    phpVarSelector = {fg = c.fg, fmt = cfg.code_style.variables},
-    phpIdentifier = {fg = c.fg, fmt = cfg.code_style.variables},
-    phpBoolean = colors.Orange,
+    phpVarSelector = {fg = c.orange, fmt = cfg.code_style.variables},
+    phpIdentifier = {fg = c.orange, fmt = cfg.code_style.variables},
+    phpBoolean = colors.Cyan,
     phpNumber = colors.Orange,
-    phpIntVar = colors.Orange,
     phpHereDoc = colors.Green,
     phpNowDoc = colors.Green,
     phpSCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
     phpFCKeyword = {fg = c.purple, fmt = cfg.code_style.keywords},
-    phpRegion = colors.Yellow,
-    phpFunctions = colors.Yellow,
-    phpSpecialFunction = colors.Yellow,
-    phpDocTags = {fg = c.light_grey, fmt = cfg.code_style.comments},
-    phpDocCustomTags = {fg = c.grey, fmt = cfg.code_style.comments},
-}
-
-hl.langs.css = {
-    cssURL = colors.Fg,
-    cssCustomProp = colors.Fg,
-    cssClassNameDot = colors.LightGrey,
-    cssBraces = colors.LightGrey,
-    cssNoise = colors.LightGrey,
-    cssPseudoClassId = colors.Cyan,
-    cssClassName = colors.Yellow,
-    cssColor = colors.Green,
-    cssUnitDecorators = colors.Green
+    phpRegion = colors.Blue
 }
 
 hl.langs.scala = {
