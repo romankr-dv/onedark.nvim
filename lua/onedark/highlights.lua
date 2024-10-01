@@ -177,7 +177,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@markup.emphasis"] = {fg = c.fg, fmt = 'italic'},
         ["@markup.environment"] = colors.Fg,
         ["@markup.environment.name"] = colors.Fg,
-        ["@markup.heading"] = colors.Orange,
+        ["@markup.heading"] = colors.Fg,
         ["@markup.link"] = colors.Blue,
         ["@markup.link.url"] = {fg = c.cyan, fmt = 'underline'},
         ["@markup.list"] = colors.Red,
@@ -229,7 +229,6 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         -- Custom highlight
         ["@type.css"] = colors.Yellow,
         ["@type.scss"] = colors.Yellow,
-        ["@markup.heading.html"] = colors.Fg,
         ["@string.special.url.html"] = {fg = c.green, fmt = cfg.code_style.strings},
         ["@variable.builtin.javascript"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@operator.go"] = colors.Purple,
