@@ -133,7 +133,7 @@ hl.syntax = {
     Operator = colors.Purple,
     Title = colors.Cyan,
     Tag = colors.Yellow,
-    Delimiter = colors.LightGrey,
+    Delimiter = colors.Fg,
     Comment = {fg = c.grey, fmt = cfg.code_style.comments},
     SpecialComment = {fg = c.grey, fmt = cfg.code_style.comments},
     Todo = {fg = c.grey, fmt = cfg.code_style.comments}
@@ -144,7 +144,6 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         -- nvim-treesitter@0.9.2 and after
         ["@annotation"] = colors.Fg,
         ["@attribute"] = colors.Cyan,
-        ["@attribute.typescript"] = colors.Blue,
         ["@boolean"] = hl.syntax.Boolean,
         ["@character"] = colors.Orange,
         ["@comment"] = hl.syntax.Comment,
@@ -209,7 +208,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@type"] = hl.syntax.Type,
         ["@type.builtin"] = colors.Orange,
         ["@variable"] = {fg = c.fg, fmt = cfg.code_style.variables},
-        ["@variable.builtin"] = {fg = c.orange, fmt = cfg.code_style.variables},
+        ["@variable.builtin"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@variable.member"] = colors.Purple,
         ["@variable.parameter"] = colors.Fg,
         ["@markup.heading.1.markdown"] = {fg = c.red, fmt = "bold"},
@@ -227,7 +226,6 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
 
         -- Custom highlights
         ["@string.special.url.html"] = hl.syntax.String,
-        ["@variable.builtin.javascript"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@tag.builtin.javascript"] = hl.syntax.Tag,
         ["@tag.delimiter.javascript"] = hl.syntax.Tag,
         ["@type.javascript"] = colors.Fg,
@@ -251,6 +249,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@type.phpdoc"] = colors.Fg,
         ["@property.json"] = colors.Purple,
         ["@type.sql"] = colors.Fg,
+        ["@variable.member.sql"] = colors.Fg,
 
         -- Old configuration for nvim-treesiter@0.9.1 and below
         ["@conditional"] = {fg = c.purple, fmt = cfg.code_style.keywords},
@@ -304,7 +303,6 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
             ["@lsp.typemod.operator.injected"] = hl.treesitter["@operator"],
             ["@lsp.typemod.string.injected"] = hl.treesitter["@string"],
             ["@lsp.typemod.variable.defaultLibrary"] = hl.treesitter["@variable.builtin"],
-            ["@lsp.typemod.variable.defaultLibrary.javascript"] = hl.treesitter["@variable.builtin.javascript"],
             ["@lsp.typemod.variable.injected"] = hl.treesitter["@variable"],
             ["@lsp.typemod.variable.static"] = hl.treesitter["@constant"],
         }
