@@ -242,6 +242,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@variable.member.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
         ["@variable.parameter.php"] = colors.Purple,
         ["@type.php"] = colors.Fg,
+        ["@type.definition.php"] = colors.Fg,
         ["@attribute.phpdoc"] = colors.LightGrey,
         ["@variable.member.phpdoc"] = colors.Purple,
         ["@variable.parameter.phpdoc"] = colors.Purple,
