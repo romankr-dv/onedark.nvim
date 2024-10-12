@@ -195,7 +195,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@punctuation.delimiter"] = colors.Fg,
         ["@punctuation.bracket"] = colors.Fg,
         ["@string"] = hl.syntax.String,
-        ["@string.regexp"] = {fg = c.orange, fmt = cfg.code_style.strings},
+        ["@string.regexp"] = {fg = c.yellow, fmt = cfg.code_style.strings},
         ["@string.escape"] = {fg = c.red, fmt = cfg.code_style.strings},
         ["@string.special.symbol"] = colors.Cyan,
         ["@string.special.path"] = colors.Fg,
