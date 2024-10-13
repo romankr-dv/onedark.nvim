@@ -9,7 +9,7 @@ local one_dark = {
     },
     normal = {
         a = {fg = c.bg0, bg = c.green, gui = 'bold'},
-        b = {fg = c.bg0, bg = c.blue},
+        b = {fg = c.fg, bg = c.bg3},
         c = {fg = c.fg, bg = cfg.lualine.transparent and c.none or c.bg0},
     },
     visual = {a = {fg = c.bg0, bg = c.purple, gui = 'bold'}},
