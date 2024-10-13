@@ -249,7 +249,6 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@property.json"] = colors.Purple,
         ["@type.sql"] = colors.Fg,
         ["@variable.member.sql"] = colors.Fg,
-        ["@type.java"] = colors.Fg,
 
         -- Old configuration for nvim-treesiter@0.9.1 and below
         ["@conditional"] = {fg = c.purple, fmt = cfg.code_style.keywords},
