@@ -136,7 +136,7 @@ hl.syntax = {
     Delimiter = colors.Fg,
     Comment = {fg = c.grey, fmt = cfg.code_style.comments},
     SpecialComment = {fg = c.grey, fmt = cfg.code_style.comments},
-    Todo = {fg = c.blue, fmt = cfg.code_style.comments}
+    Todo = {fg = c.red, fmt = cfg.code_style.comments}
 }
 
 if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
