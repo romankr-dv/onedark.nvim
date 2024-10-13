@@ -146,7 +146,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@attribute"] = colors.Yellow,
         ["@attribute.typescript"] = colors.Blue,
         ["@boolean"] = colors.Orange,
-        ["@character"] = colors.Orange,
+        ["@character"] = colors.Green,
         ["@comment"] = {fg = c.grey, fmt = cfg.code_style.comments},
         ["@comment.todo"] = {fg = c.red, fmt = cfg.code_style.comments},
         ["@comment.todo.unchecked"] = {fg = c.red, fmt = cfg.code_style.comments},
@@ -200,7 +200,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@string.regexp"] = {fg = c.yellow, fmt = cfg.code_style.strings},
         ["@string.escape"] = {fg = c.red, fmt = cfg.code_style.strings},
         ["@string.special.path"] = colors.Fg,
-        ["@string.special.url"] = {fg = c.none},
+        ["@string.special.url"] = colors.Green,
         ["@string.special.symbol"] = colors.Cyan,
         ["@tag"] = hl.syntax.Tag,
         ["@tag.builtin"] = hl.syntax.Tag,
@@ -249,6 +249,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@property.json"] = colors.Purple,
         ["@type.sql"] = colors.Fg,
         ["@variable.member.sql"] = colors.Fg,
+        ["@type.java"] = colors.Fg,
 
         -- Old configuration for nvim-treesiter@0.9.1 and below
         ["@conditional"] = {fg = c.purple, fmt = cfg.code_style.keywords},
