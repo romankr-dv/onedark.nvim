@@ -168,6 +168,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@function.method"] = {fg = c.blue, fmt = cfg.code_style.functions},
         ["@keyword"] = {fg = c.orange, fmt = cfg.code_style.keywords},
         ["@keyword.conditional"] = {fg = c.orange, fmt = cfg.code_style.keywords},
+        ["@keyword.conditional.ternary"] = colors.Fg,
         ["@keyword.directive"] = colors.Orange,
         ["@keyword.exception"] = colors.Orange,
         ["@keyword.function"] = {fg = c.orange, fmt = cfg.code_style.functions},
