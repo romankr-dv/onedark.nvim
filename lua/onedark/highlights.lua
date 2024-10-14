@@ -585,8 +585,8 @@ hl.plugins.telescope = {
     TelescopePromptPrefix = { fg=c.bg_blue },
     TelescopeSelection = {fg = c.bg_blue, fmt="reverse"},
     TelescopeSelectionCaret = {fg = c.bg_blue, fmt="reverse"},
-    TelescopeMultiSelection = { bg=c.bg1 },
-    TelescopeMultiIcon = { bg=c.bg1 },
+    TelescopeMultiSelection = { bg=c.bg3 },
+    TelescopeMultiIcon = { fg = c.bg_blue },
 }
 
 hl.plugins.lazy = {
