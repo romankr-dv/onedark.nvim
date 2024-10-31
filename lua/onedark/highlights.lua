@@ -29,12 +29,12 @@ local colors = {
     Purple = {fg = c.purple}
 }
 hl.common = {
-    Normal = {fg = c.fg, bg = cfg.transparent and c.none or c.bg_d},
-    Terminal = {fg = c.fg, bg = cfg.transparent and c.none or c.bg_d},
-    EndOfBuffer = {fg = cfg.ending_tildes and c.bg2 or c.bg_d, bg = cfg.transparent and c.none or c.bg_d},
-    FoldColumn = {fg = c.fg, bg = cfg.transparent and c.none or c.bg_d},
-    Folded = {fg = c.fg, bg = cfg.transparent and c.none or c.bg_d},
-    SignColumn = {fg = c.fg, bg = cfg.transparent and c.none or c.bg_d},
+    Normal = {fg = c.fg, bg = cfg.transparent and c.none or c.bg0},
+    Terminal = {fg = c.fg, bg = cfg.transparent and c.none or c.bg0},
+    EndOfBuffer = {fg = cfg.ending_tildes and c.bg2 or c.bg0, bg = cfg.transparent and c.none or c.bg0},
+    FoldColumn = {fg = c.fg, bg = cfg.transparent and c.none or c.bg1},
+    Folded = {fg = c.fg, bg = cfg.transparent and c.none or c.bg1},
+    SignColumn = {fg = c.fg, bg = cfg.transparent and c.none or c.bg0},
     ToolbarLine = {fg = c.fg},
     Cursor = {fmt = "reverse"},
     vCursor = {fmt = "reverse"},
@@ -42,7 +42,7 @@ hl.common = {
     lCursor = {fmt = "reverse"},
     CursorIM = {fmt = "reverse"},
     CursorColumn = {bg = c.bg1},
-    CursorLine = {bg = c.bg1},
+    CursorLine = {bg = c.bg2},
     ColorColumn = {bg = c.bg1},
     CursorLineNr = {fg = c.fg},
     LineNr = {fg = c.grey},
@@ -73,8 +73,8 @@ hl.common = {
     NonText = {fg = c.grey},
     Whitespace = {fg = c.grey},
     SpecialKey = {fg = c.grey},
-    Pmenu = {fg = c.fg, bg = c.bg1},
-    PmenuSbar = {fg = c.none, bg = c.bg1},
+    Pmenu = {fg = c.fg, bg = c.bg2},
+    PmenuSbar = {fg = c.none, bg = c.bg2},
     PmenuSel = {fg = c.bg0, bg = c.bg_blue},
     WildMenu = {fg = c.bg0, bg = c.blue},
     PmenuThumb = {fg = c.none, bg = c.grey},
@@ -98,10 +98,10 @@ hl.common = {
     debugPC = {fg = c.bg0, bg = c.green},
     debugBreakpoint = {fg = c.bg0, bg = c.red},
     ToolbarButton = {fg = c.bg0, bg = c.bg_blue},
-    FloatBorder = {fg = c.grey, bg = c.bg0},
-    NormalFloat = {fg = c.fg, bg = c.bg0},
-    FloatTitle = {fg = c.cyan, bg = c.bg0},
-    FloatFooter = {fg = c.cyan, bg = c.bg0},
+    FloatBorder = {fg = c.grey, bg = c.bg1},
+    NormalFloat = {fg = c.fg, bg = c.bg1},
+    FloatTitle = {fg = c.cyan, bg = c.bg1},
+    FloatFooter = {fg = c.cyan, bg = c.bg1},
 }
 
 hl.syntax = {
@@ -567,10 +567,10 @@ hl.plugins.nvim_tree = {
 hl.plugins.telescope = {
     TelescopeBorder = colors.Cyan,
     TelescopePromptNormal = { bg =c.bg3 },
-    TelescopePromptBorder= { fg=c.bg1, bg =c.bg1 },
+    TelescopePromptBorder= { fg=c.bg2, bg =c.bg2 },
     TelescopePromptCounter= { fg=c.grey },
-    TelescopeResultsNormal = { bg =c.bg1 },
-    TelescopeResultsBorder= { fg=c.bg1, bg =c.bg1 },
+    TelescopeResultsNormal = { bg =c.bg2 },
+    TelescopeResultsBorder= { fg=c.bg2, bg =c.bg2 },
     TelescopeResultsDiffAdd = { fg=c.bg_blue },
     TelescopeResultsDiffChange = { fg=c.bg_blue },
     TelescopeResultsDiffDelete = { fg=c.bg_blue },
@@ -579,8 +579,8 @@ hl.plugins.telescope = {
     TelescopeResultsLineNr = { fg=c.bg_blue },
     TelescopeResultsNumber = { fg=c.bg_blue },
     TelescopeResultsComment = { fmt = "italic" },
-    TelescopePreviewNormal = { bg=c.bg0 },
-    TelescopePreviewBorder = { fg=c.bg0, bg=c.bg0 },
+    TelescopePreviewNormal = { bg=c.bg1 },
+    TelescopePreviewBorder = { fg=c.bg1, bg=c.bg1 },
     TelescopeMatching = { fmt = "underline" },
     TelescopePromptPrefix = { fg=c.bg_blue },
     TelescopeSelection = {fg = c.bg_blue, fmt="reverse"},
@@ -590,7 +590,7 @@ hl.plugins.telescope = {
 }
 
 hl.plugins.lazy = {
-    LazyNormal = {fg = c.fg, bg = c.bg0},
+    LazyNormal = {fg = c.fg, bg = c.bg1},
     LazyButton = {fg = c.fg, bg = c.bg3},
     LazyButtonActive = {fg = c.yellow, bg = c.bg3},
     LazyH1 = {fg = c.yellow, bg = c.bg3},
