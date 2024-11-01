@@ -590,7 +590,6 @@ hl.plugins.telescope = {
 }
 
 hl.plugins.lazy = {
-    LazyNormal = {fg = c.fg, bg = c.bg1},
     LazyButton = {fg = c.fg, bg = c.bg3},
     LazyButtonActive = {fg = c.yellow, bg = c.bg3},
     LazyH1 = {fg = c.yellow, bg = c.bg3},
