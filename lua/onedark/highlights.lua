@@ -403,6 +403,9 @@ hl.plugins.lsp = {
 
     LspCodeLens = { fg = c.grey, fmt = cfg.code_style.comments },
     LspCodeLensSeparator = { fg = c.grey },
+
+    TreesitterContext = {fg = c.fg, bg = c.bg2},
+    TreesitterContextLineNumber = {fg = c.grey, bg = c.bg2},
 }
 
 hl.plugins.lsp.LspDiagnosticsDefaultError = hl.plugins.lsp.DiagnosticError
