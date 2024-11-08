@@ -11,7 +11,7 @@ return {
 		fg = "#bfc6d3",
 		purple = "#b77fc8",
 		pink = "#d686bb",
-		green = "#73c873",
+		green = "#6fc16f",
 		orange = "#ce9c6d",
 		blue = "#51afef",
 		yellow = "#efca85",
