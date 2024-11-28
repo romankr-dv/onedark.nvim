@@ -456,10 +456,10 @@ hl.plugins.coc = {
 }
 
 hl.plugins.whichkey = {
-    WhichKey = colors.Red,
-    WhichKeyDesc = colors.Blue,
+    WhichKey = colors.Cyan,
+    WhichKeyDesc = colors.Fg,
     WhichKeyGroup = colors.Orange,
-    WhichKeySeparator = colors.Green
+    WhichKeySeparator = colors.Grey
 }
 
 hl.plugins.gitgutter = {
