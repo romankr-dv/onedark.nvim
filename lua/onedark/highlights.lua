@@ -591,11 +591,13 @@ hl.plugins.telescope = {
 }
 
 hl.plugins.lazy = {
+    LazyH1 = hl.common.IncSearch,
+    LazyButtonActive = hl.common.IncSearch,
     LazyButton = {fg = c.fg, bg = c.bg3},
-    LazyButtonActive = {fg = c.yellow, bg = c.bg3},
-    LazyH1 = {fg = c.yellow, bg = c.bg3},
     LazyProp = hl.syntax.Comment,
     LazyCommit = colors.Red,
+    LazySpecial = colors.Cyan,
+    LazyLocal = colors.Red,
     LazyReasonRequire = colors.Pink,
     LazyReasonSource = colors.Yellow,
     LazyReasonPlugin = colors.Red,
