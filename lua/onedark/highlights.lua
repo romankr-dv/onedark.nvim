@@ -397,6 +397,11 @@ hl.plugins.lsp = {
     DiagnosticUnderlineInfo = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.blue},
     DiagnosticUnderlineWarn = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.yellow},
 
+    LspDiagnosticsSignError = {fg = c.red, bg = c.bg1},
+    LspDiagnosticsSignHint = {fg = c.purple, bg = c.bg1},
+    LspDiagnosticsSignInfo = {fg = c.cyan, bg = c.bg1},
+    LspDiagnosticsSignWarn = {fg = c.yellow, bg = c.bg1},
+
     LspReferenceText = { bg = c.bg3 },
     LspReferenceWrite = { bg = c.bg3 },
     LspReferenceRead = { bg = c.bg3 },
