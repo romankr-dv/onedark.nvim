@@ -514,6 +514,7 @@ hl.plugins.gitsigns = {
     GitSignsAddPreview = colors.Green,
     GitSignsAddLn = colors.Green,
     GitSignsAddNr = colors.Green,
+    GitSignsAddInline = colors.Green,
     GitSignsChange = colors.Blue,
     GitSignsChangeLn = colors.Blue,
     GitSignsChangeNr = colors.Blue,
