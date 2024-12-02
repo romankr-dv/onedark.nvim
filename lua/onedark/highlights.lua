@@ -511,14 +511,15 @@ hl.plugins.diffview = {
 
 hl.plugins.gitsigns = {
     GitSignsAdd = colors.Green,
+    GitSignsAddInline = colors.Green,
     GitSignsAddPreview = colors.Green,
     GitSignsAddLn = colors.Green,
     GitSignsAddNr = colors.Green,
-    GitSignsAddInline = colors.Green,
     GitSignsChange = colors.Blue,
     GitSignsChangeLn = colors.Blue,
     GitSignsChangeNr = colors.Blue,
     GitSignsDelete = colors.Red,
+    GitSignsDeleteInline = colors.Red,
     GitSignsDeletePreview = colors.Red,
     GitSignsDeleteLn = colors.Red,
     GitSignsDeleteNr = colors.Red
