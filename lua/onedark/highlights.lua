@@ -486,7 +486,7 @@ hl.plugins.diffview = {
     DiffviewFilePanelCounter = {fg = c.purple, fmt = "bold"},
     DiffviewFilePanelFileName = colors.Fg,
     DiffviewNormal = hl.common.Normal,
-    DiffviewNonText = colors.Grey,
+    DiffviewNonText = colors.LightGrey,
     DiffviewCursorLine = hl.common.CursorLine,
     DiffviewVertSplit = hl.common.VertSplit,
     DiffviewSignColumn = hl.common.SignColumn,
