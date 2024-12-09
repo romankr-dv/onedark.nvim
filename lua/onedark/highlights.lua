@@ -599,6 +599,13 @@ hl.plugins.telescope = {
     TelescopeMultiIcon = { fg = c.yellow },
 }
 
+hl.plugins.oil = {
+    OilFile = colors.Fg,
+    OilFileHidden = colors.Fg,
+    OilDir = hl.common.Directory,
+    OilDirHidden = hl.common.Directory,
+}
+
 hl.plugins.lazy = {
     LazyH1 = hl.common.IncSearch,
     LazyButtonActive = hl.common.IncSearch,
