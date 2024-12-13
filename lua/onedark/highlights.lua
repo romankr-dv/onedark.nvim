@@ -641,8 +641,8 @@ hl.plugins.dashboard = {
 }
 
 hl.plugins.outline = {
-    FocusedSymbol = { bg = c.bg2 },
-    AerialLine = { bg = c.bg2 },
+    FocusedSymbol = { fg = c.yellow },
+    AerialLine = { fg = c.yellow },
 }
 
 hl.plugins.navic = {
