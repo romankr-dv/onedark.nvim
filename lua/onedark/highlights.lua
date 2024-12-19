@@ -75,7 +75,7 @@ hl.common = {
     SpecialKey = {fg = c.grey},
     Pmenu = {fg = c.fg, bg = c.bg2},
     PmenuSbar = {fg = c.none, bg = c.bg2},
-    PmenuSel = {bg = c.diff_text},
+    PmenuSel = {bg = c.bg3},
     WildMenu = {fg = c.bg0, bg = c.blue},
     PmenuThumb = {fg = c.none, bg = c.grey},
     Question = {fg = c.yellow},
@@ -449,8 +449,8 @@ hl.plugins.barbar = {
 hl.plugins.cmp = {
     CmpItemAbbr = colors.Fg,
     CmpItemAbbrDeprecated = { fg = c.light_grey, fmt = "strikethrough" },
-    CmpItemAbbrMatch = colors.Cyan,
-    CmpItemAbbrMatchFuzzy = { fg = c.cyan, fmt = "underline" },
+    CmpItemAbbrMatch = colors.Blue,
+    CmpItemAbbrMatchFuzzy = { fg = c.blue, fmt = "underline" },
     CmpItemMenu = colors.LightGrey,
     CmpItemKind = { fg = c.purple, fmt = cfg.cmp_itemkind_reverse and "reverse" },
 }
