@@ -983,7 +983,7 @@ local lsp_kind_icons_color = {
     TypeParameter = c.red,
     Unit = c.green,
     Value = c.orange,
-    Variable = c.purple,
+    Variable = c.pink,
 }
 
 function M.setup()
