@@ -450,7 +450,7 @@ hl.plugins.cmp = {
     CmpItemAbbr = colors.Fg,
     CmpItemAbbrDeprecated = { fg = c.light_grey, fmt = "strikethrough" },
     CmpItemAbbrMatch = colors.Blue,
-    CmpItemAbbrMatchFuzzy = { fg = c.blue, fmt = "underline" },
+    CmpItemAbbrMatchFuzzy = colors.Blue,
     CmpItemMenu = colors.LightGrey,
     CmpItemKind = { fg = c.purple, fmt = cfg.cmp_itemkind_reverse and "reverse" },
 }
@@ -591,7 +591,7 @@ hl.plugins.telescope = {
     TelescopeResultsNumber = { fg=c.blue },
     TelescopePreviewNormal = { bg=c.bg1 },
     TelescopePreviewBorder = { fg=c.bg1, bg=c.bg1 },
-    TelescopeMatching = { fmt = "underline" },
+    TelescopeMatching = { fg=c.blue },
     TelescopePromptPrefix = { fg=c.blue },
     TelescopeSelection = { bg = c.diff_text },
     TelescopeSelectionCaret = { bg = c.diff_text },
