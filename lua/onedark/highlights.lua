@@ -592,7 +592,7 @@ hl.plugins.telescope = {
     TelescopeResultsNumber = { fg=c.blue },
     TelescopePreviewNormal = { bg=c.bg1 },
     TelescopePreviewBorder = { fg=c.bg1, bg=c.bg1 },
-    TelescopeMatching = { fg=c.bg1, bg=c.bg_yellow },
+    TelescopeMatching = { fg=c.red },
     TelescopePromptPrefix = { fg=c.blue },
     TelescopeSelection = { bg = c.diff_text },
     TelescopeSelectionCaret = { bg = c.diff_text },
