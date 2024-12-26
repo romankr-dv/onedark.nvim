@@ -6,7 +6,7 @@ return {
 		bg2 = "#272b35",
 		bg3 = "#313542",
 		bg_d = "#14161b",
-		bg_blue = "#79B2E3",
+		bg_blue = "#67B1E8",
 		bg_yellow = "#e2c793",
 		fg = "#bfc6d3",
 		purple = "#b77fc8",
