@@ -383,7 +383,7 @@ hl.plugins.lsp = {
     DiagnosticError = {fg = c.red},
     DiagnosticHint = {fg = c.purple},
     DiagnosticInfo = {fg = c.cyan},
-    DiagnosticWarn = {fg = c.yellow},
+    DiagnosticWarn = {fg = c.orange},
 
     DiagnosticVirtualTextError = { bg = cfg.diagnostics.background and util.darken(diagnostics_error_color, 0.1, c.bg0) or c.none,
                                    fg = diagnostics_error_color },
@@ -397,12 +397,12 @@ hl.plugins.lsp = {
     DiagnosticUnderlineError = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.red},
     DiagnosticUnderlineHint = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.purple},
     DiagnosticUnderlineInfo = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.blue},
-    DiagnosticUnderlineWarn = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.yellow},
+    DiagnosticUnderlineWarn = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.orange},
 
     LspDiagnosticsSignError = {fg = c.red, bg = c.bg1},
     LspDiagnosticsSignHint = {fg = c.purple, bg = c.bg1},
     LspDiagnosticsSignInfo = {fg = c.cyan, bg = c.bg1},
-    LspDiagnosticsSignWarn = {fg = c.yellow, bg = c.bg1},
+    LspDiagnosticsSignWarn = {fg = c.orange, bg = c.bg1},
 
     LspReferenceText = { bg = c.bg3 },
     LspReferenceWrite = { bg = c.bg3 },
