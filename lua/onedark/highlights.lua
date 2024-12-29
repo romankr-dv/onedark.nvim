@@ -65,9 +65,9 @@ hl.common = {
     WarningMsg = {fg = c.yellow},
     MoreMsg = {fg = c.blue},
     ModeMsg = {fg = c.green},
-    CurSearch = {bg = c.diff_text},
-    IncSearch = {bg = c.diff_text},
-    Search = {bg = c.diff_change},
+    CurSearch = {fg = c.bg1, bg = c.orange},
+    IncSearch = {fg = c.bg1, bg = c.orange},
+    Search = {fg = c.bg1, bg = c.bg_yellow},
     Substitute = {fg = c.bg0, bg = c.green},
     MatchParen = {fg = c.none, bg = c.grey},
     NonText = {fg = c.grey},
@@ -93,7 +93,7 @@ hl.common = {
     WinSeparator = {fg = c.bg3},
     Visual = {bg = c.bg3},
     VisualNOS = {fg = c.none, bg = c.bg2, fmt = "underline"},
-    QuickFixLine = {fg = c.yellow},
+    QuickFixLine = {bg = c.diff_change},
     Debug = {fg = c.yellow},
     debugPC = {fg = c.bg0, bg = c.green},
     debugBreakpoint = {fg = c.bg0, bg = c.red},
@@ -608,8 +608,8 @@ hl.plugins.oil = {
 }
 
 hl.plugins.lazy = {
-    LazyH1 = hl.common.IncSearch,
-    LazyButtonActive = hl.common.IncSearch,
+    LazyH1 = hl.common.DiffText,
+    LazyButtonActive = hl.common.DiffText,
     LazyButton = {fg = c.fg, bg = c.bg3},
     LazyProp = hl.syntax.Comment,
     LazyCommit = colors.Red,
