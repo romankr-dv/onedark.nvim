@@ -245,8 +245,8 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@constant.php"] = colors.Purple,
         ["@variable.php"] = colors.Purple,
         ["@variable.parameter.php"] = colors.Purple,
-        ["@annotation.phpdoc"] = {fg = util.blend(c.green, c.bg1, 0.8)},
-        ["@attribute.phpdoc"] = colors.Green,
+        ["@annotation.phpdoc"] = colors.Grey,
+        ["@attribute.phpdoc"] = colors.LightGrey,
         ["@variable.parameter.phpdoc"] = colors.Purple,
         ["@variable.phpdoc"] = colors.Purple,
 
