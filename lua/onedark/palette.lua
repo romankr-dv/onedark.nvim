@@ -12,7 +12,7 @@ return {
 		fg = "#bfc6d3",
 		purple = "#ac7abd",
 		pink = "#d686bb",
-		green = "#6fc16f",
+		green = "#64AD65",
 		orange = "#ce9c6d",
 		blue = "#51afef",
 		yellow = "#efca85",
