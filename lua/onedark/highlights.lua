@@ -45,7 +45,7 @@ hl.common = {
     CursorLine = {bg = c.bg2},
     ColorColumn = {bg = c.bg1},
     CursorLineNr = {fg = c.fg},
-    LineNr = {fg = util.darken(c.grey, 0.8)},
+    LineNr = {fg = util.blend(c.grey, c.bg1, 0.7)},
     Conceal = {fg = c.grey, bg = c.bg1},
     Added = colors.Green,
     Removed = colors.Red,
