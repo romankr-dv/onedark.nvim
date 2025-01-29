@@ -71,7 +71,7 @@ hl.common = {
     Substitute = {fg = c.bg0, bg = c.green},
     MatchParen = {fg = c.none, bg = c.grey},
     NonText = {fg = c.grey},
-    Whitespace = {fg = c.bg3},
+    Whitespace = {fg = c.bg4},
     SpecialKey = {fg = c.grey},
     Pmenu = {fg = c.fg, bg = c.bg2},
     PmenuSbar = {fg = c.none, bg = c.bg2},
