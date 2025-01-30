@@ -70,7 +70,7 @@ hl.common = {
     Search = {fg = c.bg1, bg = c.bg_yellow},
     Substitute = {fg = c.bg0, bg = c.green},
     MatchParen = {fg = c.none, bg = c.grey},
-    NonText = {fg = c.grey},
+    NonText = {fg = c.bg4},
     Whitespace = {fg = c.bg4},
     SpecialKey = {fg = c.grey},
     Pmenu = {fg = c.fg, bg = c.bg2},
