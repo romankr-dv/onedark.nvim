@@ -182,6 +182,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@markup.environment.name"] = colors.Fg,
         ["@markup.heading"] = colors.Fg,
         ["@markup.link"] = colors.Blue,
+        ["@markup.link.label"] = colors.Fg,
         ["@markup.link.url"] = {fg = c.cyan, fmt = 'underline'},
         ["@markup.list"] = colors.Red,
         ["@markup.math"] = colors.Fg,
