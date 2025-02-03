@@ -529,6 +529,13 @@ hl.plugins.gitsigns = {
     GitSignsDeleteNr = colors.Red
 }
 
+hl.plugins.fugitive = {
+	gitIdentity = colors.Fg,
+	gitEmail = colors.Grey,
+	gitEmailDelimiter = colors.Grey,
+	gitDate = colors.Fg,
+}
+
 hl.plugins.neo_tree = {
     NeoTreeNormal = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
     NeoTreeNormalNC = { fg = c.fg, bg = cfg.transparent and c.none or c.bg_d },
