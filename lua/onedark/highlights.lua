@@ -600,6 +600,7 @@ hl.plugins.telescope = {
     TelescopeResultsDiffUntracked = { fg=c.blue },
     TelescopeResultsIdentifier = { fg=c.blue },
     TelescopeResultsNumber = { fg=c.blue },
+    TelescopeResultsLineNr = { fg=c.blue },
     TelescopePreviewNormal = { bg=c.bg1 },
     TelescopePreviewLine = { bg=c.bg3 },
     TelescopePreviewBorder= { fg=util.blend(c.grey, c.bg1, 0.5), bg =c.bg1 },
