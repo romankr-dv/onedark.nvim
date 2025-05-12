@@ -75,7 +75,7 @@ hl.common = {
     SpecialKey = {fg = c.grey},
     Pmenu = {fg = c.fg, bg = c.bg2},
     PmenuSbar = {fg = c.none, bg = c.bg2},
-    PmenuSel = {bg = c.bg3},
+    PmenuSel = {bg = c.diff_text},
     WildMenu = {fg = c.bg0, bg = c.blue},
     PmenuThumb = {fg = c.none, bg = c.grey},
     Question = {fg = c.yellow},
