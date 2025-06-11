@@ -655,6 +655,14 @@ hl.plugins.dashboard = {
 hl.plugins.outline = {
     FocusedSymbol = { fg = c.yellow },
     AerialLine = { fg = c.yellow },
+    AerialClassIcon = { fg = c.cyan },
+    AerialInterfaceIcon = { fg = c.green },
+    AerialStructIcon = { fg = c.cyan },
+    AerialModuleIcon = { fg = c.cyan },
+    AerialConstructorIcon = { fg = c.blue },
+    AerialMethodIcon = { fg = c.blue },
+    AerialFunctionIcon = { fg = c.pink },
+    AerialEnumIcon = { fg = c.pink },
 }
 
 hl.plugins.navic = {
@@ -1002,7 +1010,6 @@ function M.setup()
     -- define cmp and aerial kind highlights with lsp_kind_icons_color
     for kind, color in pairs(lsp_kind_icons_color) do
         hl.plugins.cmp["CmpItemKind" .. kind] = { fg = color, fmt = cfg.cmp_itemkind_reverse and "reverse" }
-        hl.plugins.outline["Aerial" .. kind .. "Icon"] = { fg = color }
         hl.plugins.navic["NavicIcons" .. kind] = { fg = color }
     end
 
