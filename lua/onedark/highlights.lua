@@ -93,7 +93,7 @@ hl.common = {
     WinSeparator = {fg = c.bg3},
     Visual = {bg = c.dark_grey},
     VisualNOS = {fg = c.none, bg = c.bg2, fmt = "underline"},
-    QuickFixLine = {fg = c.yellow},
+    QuickFixLine = {bg = c.bg2},
     Debug = {fg = c.yellow},
     debugPC = {fg = c.bg0, bg = c.green},
     debugBreakpoint = {fg = c.bg0, bg = c.red},
@@ -654,7 +654,6 @@ hl.plugins.dashboard = {
 
 hl.plugins.outline = {
     FocusedSymbol = { fg = c.yellow },
-    AerialLine = { fg = c.yellow },
     AerialClassIcon = { fg = c.cyan },
     AerialInterfaceIcon = { fg = c.green },
     AerialStructIcon = { fg = c.cyan },
