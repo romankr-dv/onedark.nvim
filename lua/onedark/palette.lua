@@ -5,7 +5,7 @@ return {
 		bg1 = "#22252c",
 		bg2 = "#272b35",
 		bg3 = "#323642",
-		bg_d = "#14161b",
+		bg_d = "#1a1b1e",
 		bg_blue = "#67b1e8",
 		bg_yellow = "#e2c793",
 		fg = "#bfc6d3",
