@@ -530,10 +530,11 @@ hl.plugins.gitsigns = {
 }
 
 hl.plugins.fugitive = {
-	gitIdentity = colors.Fg,
-	gitEmail = colors.Grey,
-	gitEmailDelimiter = colors.Grey,
-	gitDate = colors.Fg,
+    FugitiveblameDelimiter = colors.LightGrey,
+    gitIdentity = colors.Fg,
+    gitEmail = colors.Grey,
+    gitEmailDelimiter = colors.Grey,
+    gitDate = colors.Fg,
 }
 
 hl.plugins.neo_tree = {
