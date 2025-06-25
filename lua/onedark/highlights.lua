@@ -594,6 +594,7 @@ hl.plugins.telescope = {
     TelescopePromptCounter= { fg=c.light_grey },
     TelescopeResultsNormal = { bg =c.bg2 },
     TelescopeResultsBorder= { fg=util.blend(c.grey, c.bg2, 0.5), bg =c.bg2 },
+    TelescopeResultsComment = { fg =c.light_grey },
     TelescopeResultsDiffAdd = { fg=c.green },
     TelescopeResultsDiffChange = { fg=c.blue },
     TelescopeResultsDiffDelete = { fg=c.red },
