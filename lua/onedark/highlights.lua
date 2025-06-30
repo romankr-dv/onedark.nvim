@@ -90,7 +90,7 @@ hl.common = {
     TabLine = {fg = c.fg, bg = c.bg1},
     TabLineFill = {fg = c.grey, bg = c.bg1},
     TabLineSel =  {fg = c.fg, bg = c.bg3},
-    WinSeparator = {fg = c.bg3},
+    WinSeparator = {fg = util.blend(c.fg, c.bg1, 0.1)},
     Visual = {bg = c.dark_grey},
     VisualNOS = {fg = c.none, bg = c.bg2, fmt = "underline"},
     QuickFixLine = {fg = c.yellow},
