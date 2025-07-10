@@ -87,6 +87,8 @@ hl.common = {
     StatusLineTerm = {fg = c.fg, bg = c.bg1},
     StatusLineNC = {fg = c.grey, bg = c.bg1},
     StatusLineTermNC = {fg = c.grey, bg = c.bg1},
+    WinBar = {fg = c.fg, bg = c.bg2},
+    WinBarNC = {fg = c.light_grey, bg = c.bg2},
     TabLine = {fg = c.fg, bg = c.bg1},
     TabLineFill = {fg = c.grey, bg = c.bg1},
     TabLineSel =  {fg = c.fg, bg = c.bg3},
