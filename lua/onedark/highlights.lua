@@ -95,7 +95,7 @@ hl.common = {
     WinSeparator = {fg = util.blend(c.fg, c.bg1, 0.1)},
     Visual = {bg = c.dark_grey},
     VisualNOS = {fg = c.none, bg = c.bg2, fmt = "underline"},
-    QuickFixLine = {fg = c.yellow},
+    QuickFixLine = {fg = c.none},
     Debug = {fg = c.yellow},
     debugPC = {fg = c.bg0, bg = c.green},
     debugBreakpoint = {fg = c.bg0, bg = c.red},
@@ -431,6 +431,14 @@ hl.plugins.lsp.LspDiagnosticsVirtualTextError = hl.plugins.lsp.DiagnosticVirtual
 hl.plugins.lsp.LspDiagnosticsVirtualTextWarning = hl.plugins.lsp.DiagnosticVirtualTextWarn
 hl.plugins.lsp.LspDiagnosticsVirtualTextInformation = hl.plugins.lsp.DiagnosticVirtualTextInfo
 hl.plugins.lsp.LspDiagnosticsVirtualTextHint = hl.plugins.lsp.DiagnosticVirtualTextHint
+
+hl.plugins.qf = {
+	qfFileName = {fg = c.cyan},
+	qfSeparator1 = {fg = c.light_grey},
+	qfLineNr = {fg = c.grey},
+	qfSeparator2 = {fg = c.light_grey},
+	qfText = {fg = c.fg},
+}
 
 hl.plugins.ale = {
     ALEErrorSign = hl.plugins.lsp.DiagnosticError,
