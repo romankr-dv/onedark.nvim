@@ -674,6 +674,7 @@ hl.plugins.outline = {
     AerialMethodIcon = { fg = c.blue },
     AerialFunctionIcon = { fg = c.pink },
     AerialEnumIcon = { fg = c.pink },
+	AerialGuide = { fg = c.dark_grey },
 }
 
 hl.plugins.navic = {
