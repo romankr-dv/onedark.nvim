@@ -245,7 +245,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@markup.heading.6.marker.markdown"] = {fg = c.orange, fmt = "bold"},
 
         -- Custom php treesitter highlights
-        ["@constant"] = {fg = c.purple, fmt = "italic"},
+        ["@constant.php"] = {fg = c.purple, fmt = "italic"},
         ["@variable.php"] = colors.Purple,
         ["@variable.parameter.php"] = colors.Purple,
         ["@annotation.phpdoc"] = colors.Grey,
