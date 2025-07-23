@@ -155,8 +155,8 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@comment.todo.unchecked"] = {fg = c.red, fmt = cfg.code_style.comments},
         ["@comment.todo.checked"] = {fg = c.green, fmt = cfg.code_style.comments},
         ["@constant"] = {fg = c.fg, fmt = cfg.code_style.constants},
-        ["@constant.builtin"] = colors.Orange,
-        ["@constant.macro"] = colors.Orange,
+        ["@constant.builtin"] = {fg = c.orange, fmt = cfg.code_style.constants},
+        ["@constant.macro"] = {fg = c.orange, fmt = cfg.code_style.constants},
         ["@constructor"] = colors.Fg,
         ["@diff.add"] = hl.common.DiffAdded,
         ["@diff.delete"] = hl.common.DiffDeleted,
@@ -245,8 +245,8 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@markup.heading.6.marker.markdown"] = {fg = c.orange, fmt = "bold"},
 
         -- Custom php treesitter highlights
-        ["@constant.php"] = {fg = c.purple, fmt = cfg.code_style.constants},
-        ["@variable.php"] = {fg = c.purple, fmt = cfg.code_style.variables},
+        ["@constant"] = {fg = c.purple, fmt = "italic"},
+        ["@variable.php"] = colors.Purple,
         ["@variable.parameter.php"] = colors.Purple,
         ["@annotation.phpdoc"] = colors.Grey,
         ["@attribute.phpdoc"] = colors.LightGrey,
