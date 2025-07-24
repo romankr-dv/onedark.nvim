@@ -84,7 +84,7 @@ hl.common = {
     SpellLocal = {fg = c.none, fmt = "undercurl", sp = c.blue},
     SpellRare = {fg = c.none, fmt = "undercurl", sp = c.purple},
     StatusLine = {fg = util.blend(c.fg, c.grey, 0.9), bg = c.bg1},
-    StatusLineTerm = {fg = c.fg, bg = c.bg1},
+    StatusLineTerm = {fg = util.blend(c.fg, c.grey, 0.9), bg = c.bg1},
     StatusLineNC = {fg = c.grey, bg = c.bg1},
     StatusLineTermNC = {fg = c.grey, bg = c.bg1},
     WinBar = {fg = c.fg, bg = c.bg2},
