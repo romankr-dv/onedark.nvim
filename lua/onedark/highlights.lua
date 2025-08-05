@@ -616,7 +616,7 @@ hl.plugins.telescope = {
     TelescopePreviewNormal = { bg=c.bg1 },
     TelescopePreviewLine = { bg=c.bg3 },
     TelescopePreviewBorder= { fg=util.blend(c.grey, c.bg1, 0.5), bg =c.bg1 },
-    TelescopeMatching = hl.common.Search,
+    TelescopeMatching = { fg=c.blue },
     TelescopePromptPrefix = { fg=c.blue },
     TelescopeSelection = { bg = util.blend(c.blue, c.bg1, 0.3) },
     TelescopeMultiSelection = { fg=c.yellow },
